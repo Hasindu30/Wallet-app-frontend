@@ -1,16 +1,20 @@
-import { Text, View } from "react-native";
+import { StyleSheet, Text, View } from "react-native";
 
 export default function Index() {
   return (
     <View
-      style={{
-        flex: 1,
-        justifyContent: "center",
-        alignItems: "center",
-        backgroundColor:"red"
-      }}
+      style={styles.container}
     >
-      <Text>hasindu</Text>
+      <Text >hasindu</Text>
     </View>
   );
 }
+
+const styles = StyleSheet.create({
+  container:{
+   
+    backgroundColor:"purple",
+    
+  },
+ 
+})
